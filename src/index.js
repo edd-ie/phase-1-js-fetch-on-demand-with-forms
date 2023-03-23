@@ -29,7 +29,7 @@ function search(tag, value){
         for(let row of shelf){
             if (row.id == value){
                 let book = row;                
-                result = book.title
+                result = book.summary
                 break;
             }
         }
